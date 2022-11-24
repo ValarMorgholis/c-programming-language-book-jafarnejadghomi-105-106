@@ -6,7 +6,6 @@ void msd(float num1, float num2, float *newMulti, float *newSub, float *newDiv)
     *newSub = num1 - num2;
     *newDiv = num1 / num2;
 }
-
 int main()
 {
     float num1, num2, multi, sub, div;
