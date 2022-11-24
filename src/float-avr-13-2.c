@@ -10,7 +10,7 @@ float avr(int maxN)
         printf("Enter the (%d) number : ", count);
         scanf("%f", &a[count]);
 
-        sum = sum + a[count];
+        sum += a[count];
     }
     return sum / count;
 }
